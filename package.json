@@ -1,0 +1,30 @@
+{
+  "name": "d3axismodule",
+  "version": "1.0.0",
+  "description": "Contains functions that extends or consolidates some of the functions found under d3 library's d3-axis",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deandevl/d3AxisModule.git"
+  },
+  "keywords": [
+    "d3",
+    "chart"
+  ],
+  "author": "Rick Dean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deandevl/d3AxisModule/issues"
+  },
+  "homepage": "https://github.com/deandevl/d3AxisModule#readme",
+  "main": "d3AxisModule.js",
+  "module": "index.js",
+  "dependencies": {
+    "d3-axis": "^1.0.12",
+    "d3-format": "^1.3.2",
+    "d3-time-format": "^2.1.3",
+    "d3utilmodule": "git+https://github.com/deandevl/d3UtilModule.git"
+  }
+}
